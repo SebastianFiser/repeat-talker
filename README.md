@@ -64,7 +64,7 @@ record_continuous(language="en-US")  # for English
 ```
 project_root/
 │
-├─ sTT.py          # main speech-to-text script
+├─ main.py          # main speech-to-text and text-to-speech script
 ├─ output.txt      # automatically generated text file
 └─ README.md       # this file
 ```
@@ -76,7 +76,3 @@ project_root/
 * Add **support for multiple languages simultaneously**.
 * Create a **GUI** to display text and manage microphone/language settings.
 * Implement **offline recognition** without relying on Google API.
-
----
-
-If you want, I can also make a **super concise GitHub-ready version**, short and polished, perfect for showcasing the project. Do you want me to do that?
