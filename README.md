@@ -1,7 +1,3 @@
-Jasně, tady je čistá anglická verze README vhodná pro GitHub:
-
----
-
 # Speech-to-Text Listener – Phase 1
 
 ## Overview
