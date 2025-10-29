@@ -76,3 +76,4 @@ project_root/
 * Add **support for multiple languages simultaneously**.
 * Create a **GUI** to display text and manage microphone/language settings.
 * Implement **offline recognition** without relying on Google API.
+* Add a listen **wake word**, to start the listening
