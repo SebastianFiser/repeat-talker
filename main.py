@@ -34,11 +34,11 @@ def record_continuous(language="en-US", mic_index=None, output_file="output.txt"
                         f.write(text + "\n")
 
                 except sr.UnknownValueError:
-                    print("Neporozuměl jsem, zkuste znovu.")
+                    print("I did't get that, please try again.")
                 except sr.RequestError as e:
-                    print(f"Chyba připojení k Google API: {e}")
+                    print(f"Error connecting to Google API {e}")
             except KeyboardInterrupt:
-                print("\nUkončuji poslouchání…")
+                print("\nListening stopped by user.")
                 sys.exit(0)
 
 if __name__ == "__main__":
